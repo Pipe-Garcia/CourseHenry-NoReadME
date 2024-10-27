@@ -44,7 +44,7 @@
 // console.log(palabraArreglada);
 
 // --- FOREACH ---
-var numeros = [1, 2, 3, 4];
+// var numeros = [1, 2, 3, 4];
 // numeros.forEach((num) => console.log(num));
 // numeros.forEach((num) => {
 //     if (num === 3) {
@@ -53,8 +53,8 @@ var numeros = [1, 2, 3, 4];
 // });
 
 // --- MAP ---
-var masUno = numeros.map(num => {return num + 1});
-console.log(masUno);
+// var masUno = numeros.map(num => {return num + 1});
+// console.log(masUno);
 
 // Métodos varios
 // 1) El método includes() determina si un arreglo incluye o contiene un elemento específico. Devuelve true o false en cada caso.
@@ -65,3 +65,26 @@ console.log(masUno);
 // Métodos de recorrido
 // 1) El método forEach() nos permite recorrer un arreglo, realizando alguna acción en para cada elemento.
 // 2) El método map() también nos permite recorrer un arreglo y realizar una acción por cada elemento. La diferencia es que este método devuelve un nuevo arreglo los elementos modificados.
+
+// var numeros = [1,2,3,4,5];
+// for (let index = 0; index < numeros.length; index++) {
+//     console.log(numeros[index]);    
+// }
+
+// function encontrarLetraP(string) {
+//     var arr = string.split('');
+//     for (let index = 0; index < arr.length; index++) {
+//        if (arr[index] === 'p') {
+//            console.log(`${string} contiene la letra P en la posición ${[index]}`);
+//        }
+//     }
+// }
+// encontrarLetraP('Alejo');
+// encontrarLetraP('Colapinto');
+
+var arr = [];
+
+while (arr.length < 5) {
+    arr.push('BOOM');
+}
+console.log(arr);
